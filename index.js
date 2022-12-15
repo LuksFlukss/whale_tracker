@@ -37,8 +37,7 @@ const main = async () => {
             https://etherscan.io/tx/${data.transactionHash}`)
         }
     })
-
-    /*
+    
     contract_USDT.on('Transfer', (from, to, amount, data) => {
         //console.log(from, to , amount, data)
 
@@ -54,6 +53,5 @@ const main = async () => {
             https://etherscan.io/tx/${data.transactionHash}`)
         }
     }) 
-    */
 }
 main()
