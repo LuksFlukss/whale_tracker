@@ -2,7 +2,7 @@
 This is a simple ERC-20 Token Whale Tracker
 ## Clone the Repo
 Clone the repo to have the source code
-```bash
+```console
 git clone https://github.com/LuksFlukss/whale_tracker.git
 ```
 
