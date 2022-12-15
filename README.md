@@ -1,4 +1,4 @@
-# Whale_Tracker
+# Whale_Tracker 🐋
 This is a simple ERC-20 Token Whale Tracker
 ## Clone the Repo
 Clone the repo to have the source code
