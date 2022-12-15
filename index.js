@@ -51,11 +51,15 @@ const main = async () => {
 
         //console.log(`${amount_decimal_toString}\n${amount}`)
         if(amount_decimal_toString >= TRANSFER_THRESHOLD) {
-            console.log(`New whale transfer for ${name_USDT}:\n
-            Amount = ${amount_decimal_toString}\n
-            from = ${from}\n
-            to = ${to}\n
-            https://etherscan.io/tx/${data.transactionHash}`)
+            if(actual_amount != previous_amount){
+                console.log(`New whale transfer for ${name_USDT}:\n
+                Amount = ${amount_decimal_toString}\n
+                from = ${from}\n
+                to = ${to}\n
+                https://etherscan.io/tx/${data.transactionHash}`)
+
+                const previous_amount = actual_amount
+            }
         }
     }) 
 }
