@@ -5,7 +5,7 @@ exports.sendInfoToDiscord = async (name, from, to, amount, dataJSON, blockNumber
     let embeds = [
         {
             author: {
-                name: 'Carrot Coin TrackerBot | @CarrotCoCoin',
+                name: 'Carrot Coin Whale Tracker | @CarrotCoCoin',
                 icon_url: 'https://i.ibb.co/Z8rMzBg/carrot-img.jpg',
                 url: 'https://twitter.com/CarrotCoCoin',
             },
